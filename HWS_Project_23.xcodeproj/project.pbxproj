@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FA4F4BE25B8A6AF00961394 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2FA4F4BD25B8A6AF00961394 /* explode.sks */; };
+		2FA4F4C125B8A6B600961394 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FA4F4C025B8A6B600961394 /* explosion.wav */; };
 		2FE4922325AE3791001BC307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4922225AE3791001BC307 /* AppDelegate.swift */; };
 		2FE4922525AE3791001BC307 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2FE4922425AE3791001BC307 /* GameScene.sks */; };
 		2FE4922925AE3791001BC307 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4922825AE3791001BC307 /* GameScene.swift */; };
@@ -27,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FA4F4BC25B8A69D00961394 /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = explosion.caf; path = "../../../../../../Downloads/Swifty-Ninja-Challenge23-2/Swifty Ninja/explosion.caf"; sourceTree = "<group>"; };
+		2FA4F4BD25B8A6AF00961394 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		2FA4F4C025B8A6B600961394 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
 		2FE4921F25AE3791001BC307 /* HWS_Project_23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWS_Project_23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE4922225AE3791001BC307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE4922425AE3791001BC307 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -85,7 +90,9 @@
 				2FE4922C25AE3791001BC307 /* Main.storyboard */,
 				2FE4922F25AE3792001BC307 /* Assets.xcassets */,
 				2FE4923125AE3792001BC307 /* Info.plist */,
+				2FA4F4C025B8A6B600961394 /* explosion.wav */,
 				2FE4923D25AE3887001BC307 /* explosion.caf */,
+				2FA4F4BD25B8A6AF00961394 /* explode.sks */,
 				2FE4923B25AE3887001BC307 /* launch.caf */,
 				2FE4923F25AE3887001BC307 /* sliceBombFuse.caf */,
 				2FE4923A25AE3887001BC307 /* sliceFuse.sks */,
@@ -96,6 +103,7 @@
 				2FE4924225AE3888001BC307 /* swoosh3.caf */,
 				2FE4924325AE3888001BC307 /* whack.caf */,
 				2FE4923C25AE3887001BC307 /* wrong.caf */,
+				2FA4F4BC25B8A69D00961394 /* explosion.caf */,
 			);
 			path = HWS_Project_23;
 			sourceTree = "<group>";
@@ -165,7 +173,9 @@
 				2FE4922E25AE3791001BC307 /* Main.storyboard in Resources */,
 				2FE4924525AE3888001BC307 /* sliceFuse.sks in Resources */,
 				2FE4922525AE3791001BC307 /* GameScene.sks in Resources */,
+				2FA4F4BE25B8A6AF00961394 /* explode.sks in Resources */,
 				2FE4924B25AE3888001BC307 /* sliceHitEnemy.sks in Resources */,
+				2FA4F4C125B8A6B600961394 /* explosion.wav in Resources */,
 				2FE4924E25AE3888001BC307 /* whack.caf in Resources */,
 				2FE4924825AE3888001BC307 /* explosion.caf in Resources */,
 				2FE4924D25AE3888001BC307 /* swoosh3.caf in Resources */,
